@@ -8,9 +8,9 @@ import java.io.FileNotFoundException;
         import java.util.HashMap;
         import java.util.Map;
 
-public class anagram {
+public class Anagram {
     public static void main(String []args) throws FileNotFoundException {
-        String fileName = "C:\\Users\\agrawaay\\Documents\\sowpods.txt";
+        String fileName = "args[0]";
         FileReader fread = new FileReader(fileName);
         BufferedReader bufferedReader = new BufferedReader(fread);
         HashMap<String, String> anagramWords =new HashMap<>();
