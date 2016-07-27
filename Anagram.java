@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 
 public class Anagram {
     public static void main(String []args) throws FileNotFoundException {
-        String fileName = "args[0]";
+        String fileName = args[0];
         FileReader fread = new FileReader(fileName);
         BufferedReader bufferedReader = new BufferedReader(fread);
         HashMap<String, String> anagramWords =new HashMap<>();
